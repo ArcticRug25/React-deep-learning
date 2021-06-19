@@ -1,0 +1,23 @@
+{
+  "name": "react-deep-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcticRug25/React-deep-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcticRug25/React-deep-learning/issues"
+  },
+  "homepage": "https://github.com/ArcticRug25/React-deep-learning#readme",
+  "dependencies": {
+    "vite": "^2.3.7"
+  }
+}
