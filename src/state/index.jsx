@@ -144,7 +144,7 @@ ReactDOM.render(<App />, document.getElementById("app"));
  * 这种数据（状态）从父到子，由上而下传递的这种方式叫做单向数据流
  * 
  * 
- * state 只能传递给自己的子组件
+ * state 只能传递给自己的子组件 （不考虑其他方法）
  * state 只能影响当前组件的UI的内部的UI
  * state 的安全影响范围
  *
