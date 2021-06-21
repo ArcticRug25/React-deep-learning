@@ -144,3 +144,5 @@ class ListTable extends React.Component {
 }
 
 ReactDOM.render(<ListTable />, document.getElementById("app"));
+
+// 当列表中嵌套列表 最好把每一个列表抽出来单独形成一个组件，这样React会分开处理，性能会更好
