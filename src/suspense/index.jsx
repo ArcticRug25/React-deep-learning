@@ -10,6 +10,16 @@
 
 import Loading from "./loading";
 
+/**
+ * lazy 接受一个动态导入组件的函数
+ * 改函数返回一个Promise -> ie11以下 polyfill 
+ * Promise会resolve一个默认导出的React组件 export default xxx
+ * 
+ * Suspense目前只和lazy配合实现组件等待加载指示器的功能
+ * 
+ * 服务端 loadable Components
+ */ 
+
 const MainComponent = React.lazy(() => import("./main"));
 const Main2Component = React.lazy(() => import("./main2"));
 
