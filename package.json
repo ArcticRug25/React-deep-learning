@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/ArcticRug25/React-deep-learning#readme",
   "dependencies": {
-    "nanoid": "^3.1.23",
-    "vite": "^2.3.7"
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "less": "^4.1.1",
+    "sass": "^1.35.1",
+    "vite": "^2.3.8"
   }
 }
