@@ -107,6 +107,16 @@
 
 // 已经废除掉的
 
+/**
+ * string Refs 依赖 组件实例下面的refs集合里的ref
+ * 需要React保持追踪当前正在渲染的组件 this没法确定
+ * React获取ref可能会比较慢
+ * 
+ * 不能在render中工作
+ * 
+ * 不能组合，只能有一个ref
+ */ 
+
 class MyInput extends React.Component {
   componentDidMount() {
     console.log(this.refs.inputRef);
